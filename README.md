@@ -1,1 +1,3 @@
-# opengl-green-book
+# OpenGL Green Book
+
+# OpenGL 绿书
