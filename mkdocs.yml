@@ -1,4 +1,5 @@
 site_name: opengl Green Book
+
 nav:
   - 简介: index.md
   - 准备工作:
@@ -8,4 +9,22 @@ nav:
     - 你好，三角形: chapter2/hello_triangle.md
     - 着色器: chapter2/shader.md
     - 纹理: chapter2/texture.md
-theme: readthedocs
+    
+markdown_extensions:
+  - admonition
+  - smarty
+  - sane_lists
+  - mdx_math
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML'
+
+extra_css:
+  - css/style.css
+  - css/admonition_fix.css
+
+docs_dir: 'docs'
+
+theme:
+  name: null
+  custom_dir: 'mkdocs_gitbook'
