@@ -27,4 +27,4 @@ docs_dir: 'docs'
 
 theme:
   name: null
-  custom_dir: 'mkdocs_gitbook'
+  custom_dir: 'mkdocs_windmill'
